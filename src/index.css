@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    /* background: url("../public/contact.jpg"); */
+    /* background-repeat: repeat-y; */
+    background-color: rgb(77, 73, 73);
+    background-repeat: no-repeat;
+    /* background-size: 100% 400vh; */
+    background-size: 100% 100vh;
+  }
+  /* @keyframes color {
+    0%   { background: #33CCCC; }
+    20%  { background: #33CC36; }
+    40%  { background: #B8CC33; }
+    60%  { background: #FCCA00; }
+    80%  { background: #33CC36; }
+    100% { background: #33CCCC; }
+  } */
+  @keyframes color {
+    0%   { background: #7deaea; }
+    20%  { background: #71c472; }
+    40%  { background: #bcc86a; }
+    60%  { background: #f2d871; }
+    80%  { background: #56b057; }
+    100% { background: #69bebe; }
+  }
+  
+  body {
+    background: #33CCCC;  /*Fallback*/
+    animation: color 15s infinite linear;
+    text-align: center;
+    padding: 2em;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .link{
+    text-decoration: none;
+  }
+

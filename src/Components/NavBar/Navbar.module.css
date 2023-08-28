@@ -1,0 +1,61 @@
+/* Styling for the nav-bar */
+
+
+nav{
+    background-color: black;
+    /* margin-top: -3vh; */
+    height: 7vh;
+    align-items: center;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border-style: outset;
+    /* animation: color 5s infinite linear; */
+
+
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.52);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0.3px);
+-webkit-backdrop-filter: blur(0.3px);
+border: 1px solid rgba(255, 255, 255, 0.47);
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.52);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0.3px);
+-webkit-backdrop-filter: blur(0.3px);
+border: 1px solid rgba(255, 255, 255, 0.47);
+
+}
+
+/* @keyframes Font {
+    0% {color: crimson;}
+    20% {color: orange;}
+    40% {color: goldenrod;}
+    60% {color: green;}
+    80% {color: DarkBlue;}
+    100% {color: purple}
+} */
+/* Styling for the heading */
+h2{
+    color: rgb(255, 255, 255);
+    transition: transform .6s;
+
+    text-decoration: underline;
+}
+/* few of the styling of the h2 only,  */
+.heading{
+    font-weight: 500;
+    /* animation: Font 5s infinite alternate; */
+}
+.heading:hover{
+    color: rgb(255, 0, 0);
+    transform: scale(1.1);
+
+    /* background-color: rgb(90, 86, 86); */
+    /* border: 1px solid white; */
+    /* box-shadow: 0px 1px 2px 5px whitesmoke; */
+}
